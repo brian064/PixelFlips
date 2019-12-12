@@ -12,8 +12,9 @@ body {
   position: relative;
   padding: 15px 10px 10px 10px;
   width: 100%;
-  background-color: white;
-  color: #262626;
+  background-color: #cc3300;
+  /* color: #262626; */
+  color: white;
   box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.2);
   z-index: 900;
 }
@@ -27,7 +28,7 @@ body {
 }
 
 .mainNav li:hover {
-  background-color: #707070;
+  background-color: #262626;
   color: white;
 }
 
@@ -38,11 +39,16 @@ body {
   height: 600px;
 }
 
+.homeBtn {
+  color: white;
+}
+
 .projectsScreen {
   display: block;
   position: relative;
   /* background-color: blue; */
   height: 600px;
+  border-radius: 12px;
 }
 
 .latestScreen {
@@ -80,13 +86,28 @@ body {
 }
 
 .welcomeText h1 {
-  font-size: 50px
+  font-size: 55px;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #cc3300;
 }
 
 .welcomeText h2 {
   font-size: 50px;
   margin-top: -150px;
   margin-bottom: 30px;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #cc3300;
+}
+
+.welcomeText h3 {
+  font-size: 50px;]
+  font-weight: bold;
+}
+
+.carousel-caption {
+  font-family: arial;
 }
 
 .welcomeText p {
@@ -102,7 +123,10 @@ body {
   z-index: 900;
   cursor: pointer;
   padding: 10px;
-  background-color: rgba(0,0,0,0.2);
+  color: white;
+  background-color: #cc3300;
+  border-radius: 50px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.4);
 }
 
 .latestArrow {
@@ -115,6 +139,10 @@ body {
   cursor: pointer;
   padding: 10px;
   background-color: rgba(0,0,0,0.2);
+  border-radius: 50px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.4);
+  color: white;
+  background-color: #cc3300;
 }
 
 .contactArrow {
@@ -130,4 +158,8 @@ body {
   cursor: pointer;
   padding: 10px;
   background-color: rgba(0,0,0,0.2);
+  border-radius: 50px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.4);
+  color: white;
+  background-color: #cc3300;
 }
